@@ -1,0 +1,10 @@
+class daavana:
+    def set(self,cena,name):
+        self.name=name
+        self.cena=cena
+    def output(self):
+        print (f"Daavana nosaukums: {self.name}, Cena: {self.cena}")
+
+p=daavana()
+p.set("Grāmata",20)
+p.output()
