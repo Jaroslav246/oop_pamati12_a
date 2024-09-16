@@ -18,3 +18,4 @@ d.labdien()
 
 print("Peter",20)
 int(input('Labdien, Peter!'))
+
