@@ -20,7 +20,7 @@ class Bull(Animal):
 
 anim=Animal()
 anim.voice()
-cat1,cat2=Cat(), Cat()
+cat1, cat2=Cat(), Cat()
 dog1, dog2=Dog(), Dog()
 bull1, bull2=Bull(), Bull()
 
@@ -33,4 +33,4 @@ bull2.bull_voice()
 
 farm+band=[cat1, cat2, dog1, dog2, bull1, bull2]
 for i in farm_band:
-    i.voice
+    i.voice()
