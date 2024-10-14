@@ -21,10 +21,10 @@ class Circle(Shape):
         self.radius = radius
 
     def area(self):
-        return math.pi * (self.radius ** 2)
+        return math * (self.radius ** 2)
 
     def perimeter(self):
-        return 2 * math.pi * self.radius
+        return 2 * math * (self.radius)
     
 shapes = [
     Rectangle(5, 10),
